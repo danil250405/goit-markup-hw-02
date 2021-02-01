@@ -3,78 +3,18 @@
   margin: 0;
   border: 0;
 }
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-:focus,
-:active {
-  outline: none;
-}
-a:focus,
-a:active {
-  outline: none;
-}
-nav,
-footer,
-header,
-aside {
-  display: block;
-}
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-input,
-button,
-textarea {
-  font-family: inherit;
-}
-input::-ms-clear {
-  display: none;
-}
-button {
-  cursor: pointer;
-}
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-a,
-a:visited {
+a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: none;
+  color: var(--hover-color);
 }
-ul li {
-  list-style: none;
-}
-img {
-  vertical-align: top;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: 400;
+:root {
+  --hover-color: #2196f3;
 }
 
 .text-studio {
-  color: rgba(33, 150, 243, 1);
+  color: black;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -83,6 +23,7 @@ h6 {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
 .text-portfolio {
   color: black;
   font-family: "Roboto", sans-serif;
@@ -103,8 +44,9 @@ h6 {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
 .mail-header {
-  color: #2196f3;
+  color: black;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -137,7 +79,11 @@ h6 {
   line-height: 60px;
   letter-spacing: 0.06em;
 }
+.zakaz:hover {
+  color: rgb(255, 255, 255);
+}
 .zakaz {
+  color: rgb(255, 255, 255);
   padding: 10px 32px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -149,6 +95,7 @@ h6 {
   line-height: 30px;
   letter-spacing: 0.06em;
 }
+
 .studio-header {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -370,6 +317,12 @@ h6 {
   letter-spacing: 0.03em;
   text-align: left;
 }
+.mail-footer:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel-footer:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
 .mail-footer {
   color: rgba(255, 255, 255, 0.6);
   font-family: "Roboto", sans-serif;
@@ -394,4 +347,62 @@ h6 {
 }
 .footer {
   background-color: rgba(47, 48, 58, 1);
+}
+.all:hover {
+  color: #ffffff;
+  background-color: aqua;
+}
+.all {
+  color: black;
+  background: #babdb7;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filter-link:hover {
+  color: #ffffff;
+
+  background-color: var(--hover-color);
+}
+.filter-link {
+  color: black;
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 6px 22px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.name-img {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.p-img {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
