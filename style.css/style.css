@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*----------------------------*/
+.header {
+  border-bottom: 5px solid #000;
+}
+.navigation {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+}
+
+.mail-tel {
+  display: flex;
+}
+.logo {
+  font-size: 26px;
+  margin: 24px 0px 25px 215px;
+}
+.text-studio {
+  margin: 32px 0px 32px 93px;
+  font-family: " Roboto", sans-serif;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+  color: rgba(33, 150, 243, 1);
+}
+.text-portfolio {
+  margin: 32px 0px 32px 50px;
+  font-family: " Roboto", sans-serif;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.text-contact {
+  margin: 32px 0px 32px 50px;
+  font-family: " Roboto", sans-serif;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.mail {
+  color: rgb(19, 255, 97);
+  margin: 32px 0px 32px 331px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.tel {
+  margin: 32px 215px 32px 50px;
+}
+.first-info {
+  background-color: #2f303a;
+  text-align: center;
+}
+.h1 {
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin: 0px 0px 25px 0px;
+  color: aliceblue;
+}
+.zakaz {
+  padding: 5px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin: 10px 0px 65px 0px;
+
+  font-family: " Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.web-logo {
+  font-family: "Raleway", sans-serif;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  color: #2196f3;
+}
+.studio-logo {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
